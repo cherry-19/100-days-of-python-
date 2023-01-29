@@ -1,0 +1,24 @@
+# Day -1 
+# Printing statements 
+print("Hey, its me cherry \nHow are you?") 
+print("Meow"+"-Meow") # Sring concatination
+# Input function - asks for user to input the information 
+print("Hello " + input("What is your name: "))
+
+# finding the length of the input 
+print(len(input("Whats your name: ")))
+
+# Swapping the values of variables 
+a = input("a: ")
+b = input("b: ")
+print("a: ",b)
+print("b: ",a)
+
+# Alter
+a= input("a: ")
+b= input("b: ")
+c= a
+a=b
+b=c
+print("a:",a)
+print("b:",b)
